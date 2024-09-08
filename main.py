@@ -43,4 +43,4 @@ async def on_voice_state_update(member, before, after):
 
 server_on()
 
-bot.run(os.getenv('Token'))
+bot.run(os.getenv('TOKEN'))
